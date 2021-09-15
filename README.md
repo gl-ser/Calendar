@@ -5,14 +5,20 @@
 
 ---
 
-Публичные статические методы
+#### Публичные статические методы
 
-1. TDateTimeToQDateTime переводит дату и время из формата TDateTime в формат QDateTime
+1. #### _TDateTimeToQDateTime_
+ переводит дату и время из формата TDateTime в формат QDateTime
+
 TDateTime содержит количество суток, прошедших от 00:00 30.12.1899 г.
-Подаваемое на вход время должно быть больше 01.01.1970 г.
-Синтаксис:
-static QDateTime TDateTimeToQDateTime(double Value)
 
+Подаваемое на вход время должно быть больше 01.01.1970 г.
+
+Синтаксис:
+
+```cpp
+static QDateTime TDateTimeToQDateTime(double Value)
+```
 
 2. QDateTimeToTDateTime переводит дату и время из формата QDateTime в формат TDateTime
 TDateTime содержит количество суток, прошедших от 00:00 30.12.1899 г.
