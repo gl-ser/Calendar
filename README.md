@@ -5,6 +5,8 @@
 
 ---
 
+### TCalendar
+
 #### Публичные статические методы
 
 1. _TDateTimeToQDateTime_ переводит дату и время из формата TDateTime в формат QDateTime
